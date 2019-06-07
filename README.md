@@ -1,4 +1,4 @@
-# Flag Roles
+# Flag Permissions
 
 This repository demonstrates how to manage permissions using bits
 
