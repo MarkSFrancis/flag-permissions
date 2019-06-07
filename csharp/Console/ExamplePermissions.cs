@@ -8,6 +8,6 @@
 
         public static PermissionFlag CreateDelete => Write | PermissionFlag.FromId(2);
 
-        public static PermissionFlag ViewAudit => PermissionFlag.FromId(3);
+        public static PermissionFlag ViewAudit => PermissionFlag.FromId(3); 
     }
 }
