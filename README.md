@@ -3,7 +3,7 @@
 This repository demonstrates how to manage permissions using bits
 
 ## The problem
-Storing a user's permissions often involves storing a fair amount of data, including a long list of every feature they might have access to. Particularly when dealing with authentication schemas like JWT Bearer tokens, if you're storing this information with the client, it can quickly grow to become a lot of data a large application.
+Storing a user's permissions often involves storing a fair amount of data, including a long list of every feature they might have access to. Particularly when dealing with authentication schemas like JWT Bearer tokens, if you're storing this information with the client, it can quickly grow to become a lot of data in larger applications, which causes performance problems, and in some cases, even application crashes.
 
 ## How it works
 
