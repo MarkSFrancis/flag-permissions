@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Numerics;
 
-namespace FlagRoles
+namespace FlagPermissions
 {
     public class UserPermissions
     {

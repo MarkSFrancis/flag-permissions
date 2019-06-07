@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Numerics;
 
-namespace FlagRoles
+namespace FlagPermissions
 {
     [DebuggerDisplay("{Value}")]
     public class PermissionFlag : IEquatable<PermissionFlag>

@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FlagRoles\FlagRoles.csproj" />
+    <ProjectReference Include="..\FlagPermissions\FlagPermissions.csproj" />
   </ItemGroup>
 
 </Project>

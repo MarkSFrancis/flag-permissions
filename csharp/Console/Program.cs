@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Numerics;
 
-namespace FlagRoles.Console
+namespace FlagPermissions.Console
 {
     using Console = System.Console;
 

@@ -1,4 +1,4 @@
-﻿namespace FlagRoles.Console
+﻿namespace FlagPermissions.Console
 {
     public static class ExamplePermissions
     {
