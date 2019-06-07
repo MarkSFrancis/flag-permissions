@@ -5,6 +5,10 @@ This repository demonstrates how to manage permissions using bits
 ## The problem
 Storing a user's permissions often involves storing a fair amount of data, including a long list of every feature they might have access to. Particularly when dealing with authentication schemas like JWT Bearer tokens, if you're storing this information with the client, it can quickly grow to become a lot of data in larger applications, which causes performance problems, and in some cases, even application crashes.
 
+## The solution
+
+A single large number is stored that represents the user's combination of features that they have access to. This is vastly smaller than typical methods of storing accessible features (such as comma delimited strings).
+
 ## How it works
 
 Computers work with binary, which means all data is stored in a 1 or 0, or "on" or "off" state. This suits permissions really well.
