@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "index.html"
+  },
+  "dependencies": {
+    "big-integer": "^1.6.44"
+  }
+}

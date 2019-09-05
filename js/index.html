@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flag Permissions</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="node_modules/big-integer/BigInteger.min.js" async></script>
+</head>
+
+<body>
+    <section id="js-permission-input">
+        <div class="form-group">
+            <label for="js-read">Read</label>
+            <input id="js-read" type="checkbox" />
+        </div>
+        <div class="form-group">
+            <label for="js-write">Write</label>
+            <input id="js-write" type="checkbox" />
+        </div>
+        <div class="form-group">
+            <label for="js-create-delete">Create/ Delete</label>
+            <input id="js-create-delete" type="checkbox" />
+        </div>
+        <div class="form-group">
+            <label for="js-audit">Audit</label>
+            <input id="js-audit" type="checkbox" />
+        </div>
+    </section>
+
+    <section>
+        <div>
+            Your permissions flag value:
+            <code>
+                <pre><output id="js-permission-value-output"></output></pre>
+            </code>
+        </div>
+        <div>
+            Your permissions:
+            <code>
+                <pre><output id="js-permission-text-output"></output></pre>
+            </code>
+        </div>
+    </section>
+
+    <script src="flag-permissions.js" defer></script>
+</body>
+
+</html>
